@@ -784,8 +784,8 @@ CATALOG: Dict[str, Dict[str, str]] = {
         "en": "idea must not be empty",
     },
     "validation.idea_too_long": {
-        "zh": "idea 最多 10000 字符",
-        "en": "idea must be at most 10000 characters",
+        "zh": "idea 最多 100000 字符",
+        "en": "idea must be at most 100000 characters",
     },
     "validation.duration_source_invalid": {
         "zh": "duration_source 必须为 manual 或 prompt",
