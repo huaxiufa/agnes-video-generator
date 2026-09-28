@@ -300,7 +300,7 @@ async def create_creative_task(
         helpers._validate_voice_compat(audio_voice, audio_lang or "zh")
 
     # P7: 参数校验
-    if len(idea) > 10000:
+    if len(idea) > 100000:
         raise HTTPException(
             status_code=422,
             detail=translate("validation.idea_too_long", None),
