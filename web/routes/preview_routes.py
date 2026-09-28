@@ -199,7 +199,7 @@ async def preview_creative_script(
                 status_code=422,
                 detail=translate("validation.idea_empty", None),
             )
-        if len(idea) > 10000:
+        if len(idea) > 100000:
             raise HTTPException(
                 status_code=422,
                 detail=translate("validation.idea_too_long", None),
